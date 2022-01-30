@@ -58,3 +58,12 @@ describe('Teste o componente <App.js />', () => {
     expect(h2).toBeInTheDocument();
   });
 });
+
+// Requisito 1 -
+// teste 1:  A partir do App (página principal) - captura dos elementos, verificação após se existem no documento.
+
+// teste 2: Utilizamos o history, para termos um histórico de navegação limpo para a simulação. Capturamos o link home, verificamos se está na tela, simulados o click do usuário e após, utilizamos as props do Router, espero que após o clique, a URL tenha a rota '/' que se refere a página inicial.
+
+// teste 3 e 4, mesma ideia do 2
+
+// teste 5: Utilizamos o history.push, para mandar para  history uma URL inexistente, para testarmos se ocorrendo isso, vamos para uma tela onde terá um h2 com a frase indicada (/Page requested not found).

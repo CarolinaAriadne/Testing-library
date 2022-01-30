@@ -129,3 +129,23 @@ describe('Teste o componente <Pokedex.js />', () => {
     expect(imgPikachu).toBeInTheDocument();
   });
 });
+
+// Requisito 5:
+
+// teste 1: capturamos o h2, vemos se está na tela e se tem o texto esperado
+
+// teste 2: Capturamos o button, verificamos se está na tela e se tem o texto esperado. Importado o arquivo data, onde contém o array de pokemons.
+// Passamos um forEach neste array, sendo que a cada iteração (em cada pokemon do array), capturamos o pokemon específico pelo nome e esperamos que ele esteja na tela, com o clique, simulamos o click do usuário no button próximo pokemon, e a cada iteração, o próximo pokemon após o clique, irá aparecer na tela.
+
+// teste 3: Capturamos o pokemon pela img do mesmo, passamos um All pra retornar um array, e verificamos se o tamanho do array é 1, que significa que um pokemon apenas está na tela.
+
+// teste 4: Captura de todos os botões e verificação se o array tem tamanho 7 (7 buttons). Após captura de cada button específico,
+// para ver se só tem um de cada (sem repetição), espero que o tamanho do array seja 1 e que na tela apareça na tela somente o botão daquele tipo , na posição zero, sempre, já que temos só um botão de cada.
+
+// teste 5: captura do button do tipo fire, espero que esteja no documento, simula o clique do usuário neste button, espero que o pokemon charmander esteja na tela, capturo o button de próximo pokemon  e vejo se está na tela, simulo o clico do usuário neste button próximo e verifico se aparece na tela o pokemon fire seguinte (rapidash)
+
+// teste 6: Captura de cada button pelo name específico, espero que cada esteja na tela com o name indicado.
+
+// teste 7: Captura do button, espero que esteja visível na tela.
+
+// teste 8: Capturo button All e espero que ele tenha o texto indicado, simulo clico do usuário, verifico que com o clique não existe filtro, pois é o pikachu quem aparece como padrão, logo, verifico se ele está na tela, o que quer dizer que nenhum filtro está selecionado.

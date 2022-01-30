@@ -23,3 +23,11 @@ describe('Teste o componente <About.js />', () => {
     expect(img).toHaveAttribute('alt', 'Pokédex');
   });
 });
+
+// Requisito 2
+
+// teste 1: Captura do elemento h2 e verificação se está na página.
+
+// teste 2: capturamos os parágrafos com all para retornar um array, e esperamos que o tamanho deste seja 2, assim confirmando a existência de dois parágrafos.
+
+// teste 3: Capturamos a imagem, esperamos que ela esteja página, que possua um src e um alt específico.

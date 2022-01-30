@@ -87,3 +87,24 @@ describe('Teste o componente <Pokemon.js />', () => {
     expect(imgStar).not.toBeInTheDocument();
   });
 });
+
+// Requisito 7:
+
+// beforeEach(() => {
+//     renderWithRouter(<App />); >> antes de cada teste, renderiza App, testes a partir do App.
+
+// teste 1: Capturo link more detais, simula clique do usuário, espero que apareça na tela o nome do pokemon + details.
+
+// teste 2: Capturo link details, simula clique, espero que este link não esteja mais na tela.
+
+// teste 3:  capturo link details, simula clique do usuário, espero que após isso haja na tela um texto sumary - h2
+
+// teste 4:  capturo link details, simula clique do usuário, espero que esteja na tela o resumo do pokemon - p
+
+// teste 5:  capturo link details, simula clique do usuário, espero que esteja na tela texto com localização do pokemon - h2
+
+// teste 6: capturo link details, simula clique do usuário, são duas localizações do pikachu, capturo pelo texto, espero que ambas estejam na tela
+
+// teste 7: capturo link details, simula clique do usuário, capturo as imagens dos mapas do pikachu, como são duas, espero que o tamanho do array retornado seja 2. Espero que imagem nas posições 0 e 1 (já que são dois mapas do pikachu), tenha o alt e src especificados.
+
+// teste 8: capturo link details, simula clique do usuário, capturo o elemento que favorita pokemon, espero que esteja na tela, simulo evento de clique do usuário no checkbox que favorita, pra ver se favoritou, capturo a estrelinha e vejo se está no do documento, novamente clico do usuário no checkbox, verifico se a estrela não está mais na tela. Assim os cliques seguidos, favoritam e desfavoritam o pokemon.

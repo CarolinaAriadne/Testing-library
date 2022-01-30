@@ -12,4 +12,4 @@ const renderWithRouter = (component) => {
 
 export default renderWithRouter;
 
-// função tirada do course
+// função tirada do course - utilizada para criar um history de navegação simulado no Router, assim, a cada teste, temos um ambiente de navegação limpo e não com a rota anterior, o que atrapalharia os testes seguintes
