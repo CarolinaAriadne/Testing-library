@@ -1,10 +1,5 @@
-# 🚧 README em construção 🚧
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-⚠️ IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+## Projeto Front-end destinado a exercitar a realização de testes automatizados.
+
+### Ferramentas utilizadas: React-Testing-Library 
+
+#### Os arquivos dentro da pasta tests são de minha autoria, os demais arquivos são de autoria da equipe de TI da instituição Trybe.
